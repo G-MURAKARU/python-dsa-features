@@ -1,0 +1,11 @@
+2022-07-16 14:48:52,919: __main__: ERROR: Tried to divide by zero
+2022-07-16 14:55:26,591: __main__: ERROR: Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/not-gich/code/python/practice/logging/main.py", line 42, in divide
+    result = x / y
+ZeroDivisionError: division by zero
+2022-07-16 14:57:00,313: __main__: ERROR: Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/not-gich/code/python/practice/logging/main.py", line 42, in divide
+    result = x / y
+ZeroDivisionError: division by zero

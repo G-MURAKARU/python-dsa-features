@@ -1,0 +1,5 @@
+INFO:root:Ran with args: ('Gicheru', 23) and kwargs: {}.
+INFO:root:Ran with args: ('Gicheru', 23) and kwargs: {}.
+INFO:root:Ran with args: ('Gicheru', 23) and kwargs: {}.
+INFO:root:display_info ran with args: ('Gicheru', 23) and kwargs: {}.
+INFO:root:display_info ran with args: ('Maina', 17) and kwargs: {}.
