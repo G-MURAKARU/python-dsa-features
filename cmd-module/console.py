@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/local/bin/python3
 
 """
 this is the `console` module
@@ -28,8 +28,8 @@ class Console(cmd.Cmd):
     def __init__(
         self,
         completekey: str = "tab",
-        stdin: IO[str] = None,
-        stdout: IO[str] = None,
+        stdin: IO[str] | None = None,
+        stdout: IO[str] | None = None,
     ) -> None:
         super().__init__(completekey, stdin, stdout)
 
@@ -69,12 +69,12 @@ class Console(cmd.Cmd):
             else self.FRIENDS[:]
         )
 
-    def do_quit(self) -> None:
+    def do_quit(self, line) -> None:
         """
         quits/exits the (hbnb) command-line environment
         """
 
-        self.do_EOF()
+        return True
 
     def help_quit(self) -> None:
         """
